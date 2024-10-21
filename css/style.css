@@ -1,0 +1,90 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 
+    "Helvetica Neue", "Meiryo", "MS Gothic", "Yu Gothic Medium", 
+    "YuGothic", "Hiragino Kaku Gothic ProN", Verdana, "sans-serif";
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+
+.head-cont{
+    background-color: antiquewhite;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    font-size: 25px;
+}
+
+
+#home{
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-cont{
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+}
+
+.hlogo{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.navs{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+
+.tophalf{
+    display: flex;
+    margin: 80px;
+   
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+.r-img{
+    position: relative;
+    height: 480px;
+    overflow: hidden;
+}
+
+.bear-img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%; /* Ensure the image covers the container */
+    min-height: 100%; /* Ensure the image covers the container */
+    transform: translate(-50%, -50%);
+    object-fit: cover; /* Ensure the image covers the area properly */
+    z-index: 0; /* Send the image behind other content */
+}
