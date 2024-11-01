@@ -7,7 +7,7 @@ body{
     height: 100vh;
     margin: 0;
     padding: 0;
-
+   
 }
 
 .head-cont{
@@ -16,17 +16,31 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
-
-    overflow: hidden;
 }
 
 a{
     text-decoration: none;
 }
 
+a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color: rgb(211, 136, 149);
+}
+
 li{
     font-size: 25px;
+    
 }
+
+.top-p{
+    width: 600px;
+    font-size: larger;
+}
+
 
 
 #home{
@@ -38,7 +52,21 @@ li{
 .nav-cont{
     display: flex;
     justify-content: space-between;
-    width: 1500px;
+    width: 100%;
+    max-width: 1500px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 5460px;
+   
+}
+
+/*NAV BG*/
+.navbg{
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.shibologo{
+    width: 30px;
 }
 
 .hlogo{
@@ -53,38 +81,28 @@ li{
     list-style-type: none;
     display: flex;
     gap: 40px;
+    
 }
 
 .tophalf{
     display: flex;
     margin: 80px;
-   
-    position: relative;
 }
-
-
-
-
-
-
-
-
 
 .r-img{
     position: relative;
     height: 480px;
-    overflow: hidden;
+    
 }
 
-.bear-img{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: auto;
-    height: auto;
-    min-width: 100%; /* Ensure the image covers the container */
-    min-height: 100%; /* Ensure the image covers the container */
-    transform: translate(-50%, -50%);
-    object-fit: cover; /* Ensure the image covers the area properly */
-    z-index: 0; /* Send the image behind other content */
+.mid-cont{
+    background-color: rgb(255, 255, 255);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bear-mods{
+    
 }
