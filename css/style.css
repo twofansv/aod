@@ -51,12 +51,25 @@ li{
 
 .nav-cont{
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1500px;
+    justify-content: space-around;
     background-color: rgb(255, 255, 255);
-    padding: 10px 5460px;
+    
    
+}
+
+.hlogo{
+    display: flex;
+
+    font-weight: bold;
+    font-size: 40px;
+   
+   
+}
+.navs{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    
 }
 
 /*NAV BG*/
@@ -67,21 +80,6 @@ li{
 
 .shibologo{
     width: 30px;
-}
-
-.hlogo{
-    display: flex;
-    text-align: left;
-    align-items: center;
-    font-weight: bold;
-    font-size: 40px;
-}
-
-.navs{
-    list-style-type: none;
-    display: flex;
-    gap: 40px;
-    
 }
 
 .tophalf{
@@ -96,13 +94,32 @@ li{
 }
 
 .mid-cont{
-    background-color: rgb(255, 255, 255);
-    justify-content: space-between;
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    
+   
+    
+   
 }
 
-.bear-mods{
+.bearmods{
+    display: flex;
+    justify-content: space-around;
     
+
+}
+
+.b-para {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    margin: 150px;
+    border: 4px dashed black;
+    border-radius: 20px;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
 }
